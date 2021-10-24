@@ -11,14 +11,15 @@ const PlayerReport = ({ detailResult,setDetailResult, setSearchResults }) => {
     <div className="details-box">
       <div className="navbar">
         <button className="back-button" onClick={changeHandler} ><i class="fas fa-arrow-left"></i> Home</button>
+        <button className="back-button" onClick={changeHandler} ><i class="fas fa-question"></i> Help</button>
         <h1 className="player-name">{detailResult.Name}</h1>
       </div>
       <div className="flex-box">
-        {detailResult && (
+        {detailResult && 
           <div className="graph">
             <Graph detailResult={detailResult} />
           </div>
-        )}
+        }
         <div className="player-details">
           <div className="score">
             <span className="overall">
@@ -54,12 +55,12 @@ const PlayerReport = ({ detailResult,setDetailResult, setSearchResults }) => {
             Jersey Number:{" "}
             <strong className="quality-ans">{detailResult.JerseyNumber}</strong>
           </div>
-          <div className="qualities">Weak Foot:</div>
-          <div className="qualities">Skill Moves:</div>
+          <div className="qualities">Weak Foot: <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></div>
+          <div className="qualities">Skill Moves: <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></div>
           <div className="qualities">
             Work Rate: <strong>{detailResult.WorkRate}</strong>
           </div>
-          <div className="qualities">International Reputation:</div>
+          <div className="qualities">International Reputation: <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></div>
         </div>
       </div>
     </div>
