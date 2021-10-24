@@ -1,0 +1,68 @@
+.details-box {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  /* display: flex;
+  flex-direction: column; */
+  /* border: 2px solid red; */
+}
+.back-button{
+  background: transparent;
+  padding: 5px;
+  border: none;
+  font-size: 17px;
+  color: rgb(165, 162, 162);
+  cursor: pointer;
+}
+.navbar{
+  margin: 25px;
+  /* border: 2px solid red; */
+}
+.player-name {
+  text-align: center;
+  margin: auto;
+  padding: 5px 10px;
+  color: rgb(110, 110, 110);
+  /* border: 2px solid red; */
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+}
+.flex-box {
+  display: flex;
+  flex-direction: row;
+}
+.graph {
+  width: 50%;
+  height: 450px;
+  border-right: 1px solid rgb(165, 162, 162);
+  margin: 20px;
+  text-align: center;
+}
+.player-details {
+  padding: 35px 40px;
+  width: 50%;
+  height: 500px;
+  /* border: 2px solid red; */
+  margin: 20px;
+  /* text-align: center; */
+}
+.score {
+  margin-bottom: 40px;
+}
+.overall {
+  padding: 10px 25px;
+  margin: 25px;
+  border-radius: 10px;
+  background-color: #1a7e53;
+  color: white;
+  margin-bottom: 35px;
+}
+.qualities {
+  margin: 0px 12px;
+  padding: 8px 12px;
+  color: rgb(110, 110, 110);
+  font-family: 'Raleway', sans-serif;
+}
+.quality-ans {
+  color: rgb(110, 110, 110);
+}

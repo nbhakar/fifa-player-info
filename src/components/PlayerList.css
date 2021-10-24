@@ -1,0 +1,9 @@
+.list-box {
+  /* background-color: #e3f2fdd4; */
+  margin: 20px;
+  padding: 20px 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

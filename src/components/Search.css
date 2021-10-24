@@ -1,0 +1,32 @@
+#search {
+  padding: 17px 60px;
+  border: none;
+  font-size: 21px;
+  border-radius: 5px 0px 0px 5px;
+  box-shadow: -9px 12px 5px -9px rgba(249,249,249,0.35);
+  -webkit-box-shadow: -9px 12px 5px -9px rgba(249,249,249,0.35);
+  -moz-box-shadow: -9px 12px 5px -9px rgba(249,249,249,0.35);
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  transition: all 0.3s;
+}
+#search:focus {
+  outline: none;
+}
+
+.button {
+  font-size: 21px;
+  padding: 17px 28px;
+  border-radius: 0px 5px 5px 0px;
+  color: white;
+  background-color: rgb(46, 226, 190);
+  border: none;
+  transition: all 0.3s;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(43, 156, 134);
+
+}

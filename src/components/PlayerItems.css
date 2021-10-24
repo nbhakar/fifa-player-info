@@ -1,0 +1,69 @@
+.expanse-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem 150px;
+    background-color: #FD015D;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+    box-shadow: 10px 10px 14px -1px rgba(10,10,10,0.21);
+-webkit-box-shadow: 10px 10px 14px -1px rgba(10,10,10,0.21);
+-moz-box-shadow: 10px 10px 14px -1px rgba(10,10,10,0.21);
+  }
+  .card-box{
+    width: 300px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+  }
+  .expanse-item-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .expanse-item-date, .expanse-item-title {
+    font-size: 1.5rem;
+    margin: 0 5px;
+    font-weight: bold;
+  }
+  .expanse-item-titles {
+    color: white;
+    margin: 20px 10px;
+    font-size: 35px;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  .expanse-item-title {
+    color: rgb(211, 197, 197);
+    margin: 20px 10px;
+    font-family: 'Zen Kurenaido', sans-serif;
+  }
+  .expanse-item-expanse {
+    color: rgb(223, 206, 206);
+    font-weight: bold;
+    margin: 24px 10px;
+    font-size: 20px;
+    font-family: 'Zen Kurenaido', sans-serif;
+  }
+  
+  @media (max-width: 510px) {
+      .expanse-item{
+          flex-direction: column;
+      }
+      .expanse-item-info{
+          flex-direction: column;
+      }
+      .expanse-item-date, .expanse-item-title {
+          font-size: 1rem;
+          margin: 0 5px;
+          font-weight: normal;
+        }
+        .expanse-item-expanse {
+          font-size: 1rem;
+          font-weight: normal;
+          padding: 5px;
+        }
+      
+  }
